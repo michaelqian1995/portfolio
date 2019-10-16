@@ -12,10 +12,15 @@ table {
   color: var(--color-secondary);
 }
 
-a {
+.button {
+  padding: 0;
+}
+
+.button a {
   color: var(--color-primary);
   font-family: var(--font-primary);
   padding-left: 25px;
+  display: block;
 }
 
 .button :hover {
