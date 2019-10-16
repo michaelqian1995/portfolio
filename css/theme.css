@@ -38,7 +38,6 @@ a:visited {
   font-family: var(--font-secondary);
   font-style: normal;
   font-weight: bold;
-  color: var(--color-secondary);
   text-decoration: none;
 }
 
