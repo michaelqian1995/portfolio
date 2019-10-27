@@ -6,10 +6,21 @@ table {
 
 }
 
+.sub {
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.nav_name {
+  margin-bottom: 0px;
+  font-style: 1000;
+}
+
 .title{
   font-family: var(--font-secondary);
   background-color: var(--color-primary);
   color: var(--color-secondary);
+  padding-left: 22px;
 }
 
 .button {
@@ -32,8 +43,47 @@ table {
   width: 50px;
 }
 
+@media only screen and (min-width: 25em) {
+  .logo {
+    width: 80px;
+    padding-top: 20px;
+  }
+
+  .title {
+    font-size: 1.4757rem;
+    line-height: 1.95rem;
+  }
+}
+
  @media only screen and (min-width: 38em) {
   .logo {
-    width: 200px;
+    width: 140px;
+    padding-top: 40px;
   }
+
+  .title {
+    font-size: 1.68rem;
+    line-height: 2.275rem;
+  }
+}
+
+
+@media only screen and (min-width: 60em) {
+  .logo {
+    width: 200px;
+    padding-top: 10px;
+  }
+
+  .title {
+    font-size: 1.7926rem;
+    line-height: 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .logo {
+    width: 230px;
+    padding-top: 10px;
+  }
+
 }
