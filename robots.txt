@@ -1,0 +1,6 @@
+# qian-design.org
+
+Sitemap: http://qian-design.com/sitemap.xml
+
+User-Agent: *
+Disallow:

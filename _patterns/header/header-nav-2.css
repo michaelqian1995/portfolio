@@ -58,7 +58,7 @@ table {
  @media only screen and (min-width: 38em) {
   .logo {
     width: 140px;
-    padding-top: 40px;
+    padding-top: 16px;
   }
 
   .title {
@@ -70,8 +70,8 @@ table {
 
 @media only screen and (min-width: 60em) {
   .logo {
-    width: 200px;
-    padding-top: 10px;
+    width: 140px;
+    padding-top: 17px;
   }
 
   .title {
@@ -82,8 +82,8 @@ table {
 
 @media only screen and (min-width: 90em) {
   .logo {
-    width: 230px;
-    padding-top: 10px;
+    width: 170px;
+    padding-top: 17px;
   }
 
 }
