@@ -43,6 +43,10 @@ table {
   width: 50px;
 }
 
+.wth {
+  width: 25%;
+}
+
 @media only screen and (min-width: 25em) {
   .logo {
     width: 80px;
