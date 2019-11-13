@@ -10,9 +10,9 @@
 
 .card-width {
   background: var(--color-secondary);
-  border: 2px solid black;
+  border: 0px solid black;
   border-radius: 0px;
-  height: 25vw;
+  height: 3vw;
   margin: 0rem;
   position: relative;
   width: 100%;
@@ -22,10 +22,9 @@
   background: var(--color-secondary);
   border: 2px solid black;
   border-radius: 0px;
-  height: 25vw;
   margin: 0rem;
   position: relative;
-  width: 100%;
+  width: 80%;
 }
 
 .card-1 {

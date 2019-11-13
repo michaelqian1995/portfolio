@@ -6,3 +6,43 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+html {
+  position: absolute;
+  border: 0px solid black;
+}
+
+.static {
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity:0;
+}
+
+.scrolling-limit{
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.scrolling{
+  position: relative;
+  -webkit-animation: scroll 14s infinite linear;;
+  -moz-animation: scroll 14s infinite linear;
+  -o-animation: scroll 14s infinite linear;
+  animation: scroll 14s infinite linear;
+}
+
+@keyframes scroll{
+    0%   {left: 1420px;}
+    100% {left: -1920px;}
+}
+@-webkit-keyframes scroll{
+    0%   {left: 1400px;}
+    100% {left: -1920px;}
+}
+
+.sc {
+  padding-top: 3px;
+}

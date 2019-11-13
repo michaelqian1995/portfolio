@@ -12,6 +12,7 @@
 html {
   font-family: var(--font-primary);
   background-color: var(--color-neutral-grey);
+  overflow-x: hidden;
 }
 
 h1 {

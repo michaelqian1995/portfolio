@@ -1,5 +1,5 @@
 td {
-  border: 3px solid black;
+  border: 0px solid black;
 }
 
 table {
@@ -47,6 +47,8 @@ table {
   width: 25%;
 }
 
+
+
 @media only screen and (min-width: 25em) {
   .logo {
     width: 80px;
@@ -89,5 +91,17 @@ table {
     width: 170px;
     padding-top: 17px;
   }
+
+}
+
+
+.container {
+
+}
+
+.btn {
+
+}
+.btn:hover {
 
 }
