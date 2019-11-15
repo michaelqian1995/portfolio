@@ -18,7 +18,7 @@ table {
 
 .title{
   font-family: var(--font-secondary);
-  background-color: var(--color-primary);
+  background-color: black;
   color: var(--color-secondary);
   padding-left: 22px;
 }
@@ -28,14 +28,14 @@ table {
 }
 
 .button a {
-  color: var(--color-primary);
+  color: black;
   font-family: var(--font-primary);
   padding-left: 25px;
   display: block;
 }
 
 .button :hover {
-  background-color: var(--color-primary);
+  background-color: black;
   color: var(--color-secondary);
 }
 

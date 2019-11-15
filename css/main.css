@@ -7,20 +7,6 @@
 {% include_relative theme.css %}
 {% pattern_css %}
 
-html {
-  position: absolute;
-  border: 0px solid black;
-}
-
-.static {
-  position:absolute;
-  background: white;
-}
-
-.static:hover {
-  opacity:0;
-}
-
 .scrolling-limit{
   overflow:hidden;
   white-space:nowrap;
