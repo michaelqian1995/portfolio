@@ -8,14 +8,20 @@
   width: 100%;
 }
 
-.card-width {
+.card-longimg {
   background: var(--color-secondary);
-  border: 0px solid black;
   border-radius: 0px;
-  height: 3vw;
   margin: 0rem;
   position: relative;
-  width: 100%;
+  width: 60%;
+}
+
+.card-width {
+  background: var(--color-secondary);
+  border-radius: 0px;
+  margin: 0rem;
+  position: relative;
+  width: 80%;
 }
 
 .card-more-width{

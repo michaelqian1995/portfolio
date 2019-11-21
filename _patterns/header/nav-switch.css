@@ -1,0 +1,13 @@
+.desktop-nav {
+  display: none;
+}
+
+@media only screen and (min-width: 38em) {
+  .desktop-nav{
+    display: table;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+}
