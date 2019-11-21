@@ -55,7 +55,7 @@ body {
   margin: 0;
   padding: 0;
 }
-a {
+.mob {
   font-family: var(--font-secondary)
   text-decoration: none;
   color: black;
@@ -65,7 +65,7 @@ a {
   font-weight: 400;
   transition: 200ms;
 }
-a:hover {
+.mob:hover {
   opacity:0.5;
 }
 ul {
@@ -73,7 +73,7 @@ ul {
   list-style-type: none;
 }
 
-nav {
+.mobile-nav {
   background-color: black;
   height: 65px;
 }
