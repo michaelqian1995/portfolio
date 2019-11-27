@@ -189,6 +189,10 @@ svg.img-flex {
   padding-top: 41.667%; /* Widescreen cinema: 2.4:1 */
 }
 
+.embed-2by1, .embed--2by1 {
+    padding-top: 50%;
+}
+
 .embed-3by1, .embed--3by1 {
   padding-top: 33.3333%; /* Panorama photos */
 }
