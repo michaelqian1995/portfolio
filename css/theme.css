@@ -9,6 +9,10 @@
 --font-secondary: "Playfair Display SC", serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 html {
   font-family: var(--font-primary);
   background-color: var(--color-neutral-grey);
