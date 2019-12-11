@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>{{page.title}}</title>
+  <link rel="shortcut icon" href="/images/icon.ico">
+  <link rel="icon" type="image/png" href="/images/icon.png">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="/css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,600|Playfair+Display+SC:700&display=swap" rel="stylesheet">
@@ -25,56 +27,65 @@
   <meta name="twitter:image" content="">
 </head>
 <body>
-  {% pattern header/header-mobile %}
-  {% pattern header/header-nav-2 %}
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
-  {{content}}
+  <header class="masthead" role="banner">
+    {% pattern header/header-mobile %}
+    {% pattern header/header-nav-2 %}
+  </header>
 
-  {% pattern footer/footer %}
+  <main role="main" id="main" tabindex="0">
+    {{content}}
 
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Qian Deisgn",
-      "author": {
-        "@type": "Person",
-        "@id": "#QianZhaoCheng"
-      },
-      "description": "Portfolio WebSite",
-      "image": "https://placehold.it/1600x900",
-      "award": "",
-      "url": "https://http://qian-design.com",
-      "keywords": "Web, Responsive, CSS, Mobile, PORTFOLIO"
-    }
-  </script>
+    {% pattern footer/footer %}
+  </main>
 
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Qian Deisgn",
+    "author": {
       "@type": "Person",
-      "@id": "#QianZhaoCheng",
-      "name": "QianZHaoCheng",
-      "email": "Qian0020algonquinlive.com",
-      "url": "https://qian-design.com"
-    }
+      "@id": "#QianZhaoCheng"
+    },
+    "description": "Portfolio WebSite",
+    "image": "https://placehold.it/1600x900",
+    "award": "",
+    "url": "https://http://qian-design.com",
+    "keywords": "Web, Responsive, CSS, Mobile, PORTFOLIO"
+  }
   </script>
 
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Qian Deisgn.",
-      "email": "Qian0020algonquinlive@algonquin.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "",
-        "addressLocality": "",
-        "addressRegion": "QianDesign",
-        "addressCountry": "Canada",
-        "postalCode": "K2G3G3"
-      }
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "#QianZhaoCheng",
+    "name": "QianZHaoCheng",
+    "email": "Qian0020@algonquinlive.com",
+    "url": "https://qian-design.com"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Qian Deisgn.",
+    "email": "Qian0020algonquinlive@algonquin.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "",
+      "addressRegion": "QianDesign",
+      "addressCountry": "Canada",
+      "postalCode": "K2G3G3"
     }
+  }
   </script>
 
 </body>
